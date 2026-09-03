@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "MCP server that lets Poke (or any MCP client) generate music via a Suno API provider",
   "type": "module",
-  "main": "src/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node --env-file=.env src/server.js",
+    "start": node server.js
     "dev": "node --watch --env-file=.env src/server.js"
   },
   "dependencies": {
